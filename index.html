@@ -8,34 +8,34 @@
     <title>Taskinator</title>
 </head>
 <body>
-    <script src="./assets/js/script.js"></script>
+    
     <!-- Start of header section -->
     <header>
         <h1 class="page-title">Taskinator</h1>
         <p>Click the button below to add a new task!</p>
-        <button class="btn" >Add Task</button>
+        <button class="btn" id="save-task">Add Task</button> 
       </header>
     <!-- End of header section -->
-
+   
     <!-- Start of main section-->
     <main class="page-content">
         <!--start task section-->
         <section class="task-list-wrapper">
             <h2 class="list-title"></h2>
-            <ul>
+            <ul class="task-list" id="tasks-to-do">
                 <li class="task-item">"A task will be added soon"</li>
             </ul>
         </section>
     </main>
     <!-- End of main section-->
     
-   
 
     <!--Start footer section-->
     <footer>
         &copy;2020 by taskinator
     </footer>
     <!--End of footer section-->
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
 
